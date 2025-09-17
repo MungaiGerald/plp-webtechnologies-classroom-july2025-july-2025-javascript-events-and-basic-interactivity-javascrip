@@ -1,0 +1,26 @@
+/* The Default Light Mode */
+body {
+    background-color: aliceblue;
+    color: black;
+}
+
+/* Dark Mode Styles applied when .dark-mode class is added */
+body.dark-mode {
+    background-color: #121212;
+    color: aliceblue;
+}
+
+/* Styling buttons when in dark mode */
+body.dark-mode button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+/* Styling the FAQ  content (especially when on darkmode for visibility) */
+.faq-content {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 3px solid #2196F3;
+}
